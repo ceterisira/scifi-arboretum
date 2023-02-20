@@ -1,0 +1,83 @@
+h1{
+	color: #1c3f07;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: bolder;
+}
+header{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 110%;
+	margin-top:0;
+}
+.button{
+	padding: 5px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: rgba(28, 63, 7, 0.5);
+	text-decoration: none;
+	font-variant: small-caps;
+	text-align: center;
+	font-size: larger;
+	border: medium solid rgba(28, 63, 7, 1.0);
+}
+nav{
+	margin:25px;
+}
+a:hover{
+	color: #1c3f07;
+	background: #FFFFFF;
+}
+blockquote{
+	text-align: center;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	background-image: url("vines-background-opaque.png");
+	background-repeat: repeat;
+	background-color: whitesmoke;
+	font-size: 100%;
+	margin: 15px;
+}
+table{
+	text-align: center;
+}
+article{
+	text-align: justify;
+}
+iframe{
+	border: 0;
+	padding-top: 25px;
+	float: right;
+	display: inline-block;
+	width: 45%;
+}
+table{
+	display: inline-table;
+	height: fit-content;
+	width: 45%;
+	border: 5px solid seagreen;
+	padding: 2px;
+	border-spacing: 20px;
+}
+.starting-point{
+	display: block;
+	text-align: center;
+}
+.book-garden{
+	height: 400px;
+}
+footer{
+	clear: both;
+	color: #1c3f07;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+}
