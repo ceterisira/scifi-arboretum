@@ -2,14 +2,11 @@ h1{
 	color: #1c3f07;
 	background-color: rgba(255, 255, 255, 0.5);
 	text-align: center;
-	transition: color, background;
-	transition-duration: .5s;
-	transition-timing-function: linear;
-	transition-delay: .5s;
+	transition: color, background-color .5s linear;
 }
-h1:hover {
-	color: rgba(255, 255, 255, 0.5);
-	background: #1c3f07;
+h1:hover{
+	color: rgba(255, 255, 255, 1.0);
+	background-color: #1c3f07;
 }
 h2{
 	text-align: center;
@@ -49,7 +46,7 @@ blockquote{
 }
 body{
 	font-family: 'Playfair Display', serif;
-	background-image: url("vines-background-opaque.png");
+	background-image: url("index_files/vines-background-opaque.png");
 	background-repeat: repeat;
 	background-color: whitesmoke;
 	font-size: 100%;
@@ -79,9 +76,6 @@ table{
 .starting-point{
 	display: block;
 	text-align: center;
-}
-.book-garden{
-	height: 400px;
 }
 footer{
 	clear: both;
