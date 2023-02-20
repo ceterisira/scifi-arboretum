@@ -2,6 +2,14 @@ h1{
 	color: #1c3f07;
 	background-color: rgba(255, 255, 255, 0.5);
 	text-align: center;
+	transition: color, background;
+	transition-duration: .5s;
+	transition-timing-function: linear;
+	transition-delay: .5s;
+}
+h1:hover {
+	color: rgba(255, 255, 255, 0.5);
+	background: #1c3f07;
 }
 h2{
 	text-align: center;
